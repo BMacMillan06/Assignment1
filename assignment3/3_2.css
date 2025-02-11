@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+  }
+
+
+  .box {
+    width: 350px;
+    height: 150px;
+    padding-top: 100px;
+    text-align: center;
+    text-shadow:3px 3px 2px black;
+    border: 5px rgb(177, 174, 13) dotted;
+    box-shadow: white 3px 3px 6px inset, black 13px 13px 13px;
+    background-color: rgb(117, 20, 221);
+    font-family:'Franklin Gothic Medium';
+    color: white;
+    font-size: 40px;
+    border-radius: 25px;
+  }
+
+  
