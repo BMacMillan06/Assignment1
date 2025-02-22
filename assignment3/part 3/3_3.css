@@ -1,0 +1,124 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+ @font-face {
+    font-family: "headerFont";
+    src:url(oregon-ldo-font/OregonLdo-d9q7.ttf);
+ }
+
+ @font-face {
+    font-family: "bodyFont";
+    src: url(LibrevilleFree-K7YjX.otf);
+ }
+
+ html{
+    font-size:10px;
+ }
+
+ p {
+    font-family:"bodyFont";
+    font-size:small;
+ }
+
+ h1{
+    font-size:45px;
+    font-family:"headerFont";
+    text-align: center;
+ }
+
+ h2{
+    font-family:"headerFont";
+    font-size:25px
+ }
+
+ section{
+    text-indent: 20px;
+ }
+
+ img{
+    width:10px;
+ }
+
+nav ul li{
+  list-style-type: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 100%;
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 3;
+  color:#a66;
+  border: 2px #a66 solid;
+  text-align: center;
+}
+
+nav a{
+   color: #a66;
+   text-decoration: none;
+}
+
+a{
+   color: #a66;
+}
+
+aside ul li a{
+    font-size: small;
+    color: #a66;
+}
+
+ aside ul li a:hover{
+    color:rgb(65, 65, 220);
+ }
+
+ section ul li{
+    font-size:small;
+ }
+
+ section ol li{
+    font-size:small;
+ }
+
